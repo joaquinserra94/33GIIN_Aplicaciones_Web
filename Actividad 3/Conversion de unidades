@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!Inserte la estructura básica del documento HTML en el archivo, incluidas las etiquetas
+head y body. Agregar una etiqueta title con el título “Conversión de unidades”.>
+<html>
+  <head>
+    <title>Conversión de unidades</title>
+  </head>
+<!Cree una sección con id home, dentro del cuerpo. Esta sección representará la sección
+superior de su página web.>
+  <body>
+    <section id="home"> <!Representa una sección genérica de un documento o aplicación, como una página.>
+    <h1>Conversión de unidades</h1>
+    <p>Página que realizará la conversión de unidades</p>
+    </section>
+  </body>
+  <!Dentro de la sección de inicio, cree un encabezado, usando la etiqueta <header>, con
+    el texto Conversión de unidades. Poner en negrita el texto para que se destaque.>
+    <header> <!Especifica un grupo de elementos introductorios o de navegación. Puede contener un logo, un formulario de búsqueda, un nombre de autor, etc. >
+        <h2><strong>Conversión de unidades</strong></h2>
+    </header>
+    <!Crear una barra de navegación dentro de la sección de inicio, después de la etiqueta.>
+    <nav> <!Representa una sección de una página cuyo propósito es proporcionar enlaces de navegación.>
+        <ul> <!Representa una lista de elementos no ordenada.>
+            <li><a href="#temperature">Temperatura</a></li>
+            <li><a href="#weight">Peso</a></li>
+            <li><a href="#length">Distancia</a></li>
+        </ul>
+    </nav>
+</html>
+
