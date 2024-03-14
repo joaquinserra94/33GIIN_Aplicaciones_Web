@@ -26,5 +26,17 @@ superior de su página web.>
             <li><a href="#length">Distancia</a></li>
         </ul>
     </nav>
+    <!Agregue 3 etiquetas de anclaje y botón para los 3 tipos de conversiones (temperatura, peso
+    y distancia) dentro de la barra de navegación.>
+    <section id="temperature"> <!Representa una sección genérica de un documento o aplicación, como una página.>
+        <h2>Conversión de temperatura</h2>
+        <p>Conversión de grados Celsius a Fahrenheit</p>
+        <form>
+            <label for="celsius">Celsius:</label>
+            <input type="number" id="celsius" name="celsius">
+            <input type="submit" value="Convertir">
+        </form>
+        <p>Resultado: <span id="resultCelsius"></span></p>
+    </section>
 </html>
 
