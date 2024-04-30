@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+   <meta charset="UTF-8">
+
+   <title>My React App</title>
+
+</head>
+
+<body>
+
+   <div id="root"></div>
+
+   <!-- Carga React y ReactDOM desde un CDN -->
+
+   <script src="unpkg.com/react@17/umd/react.development.js"></script>
+
+   <script src="unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+   <!-- Tu código React aquí -->
+
+   <script type="text/babel">
+
+       function HelloWorld() {
+
+           return React.createElement('h1', null, 'Hola Mundo');
+
+       }
+
+       ReactDOM.render(
+
+           React.createElement(HelloWorld, null),
+
+           document.getElementById('root')
+
+       );
+
+   </script>
+
+</body>
+
+</html>
